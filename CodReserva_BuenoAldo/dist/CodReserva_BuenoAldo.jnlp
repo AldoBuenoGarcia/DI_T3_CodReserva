@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CodReserva_BuenoAldo.jnlp">
+  <information>
+    <title>CodReserva_BuenoAldo</title>
+    <vendor>usuario</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CodReserva_BuenoAldo.jar" size="6624" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CodReserva_BuenoAldo" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="codreserva_buenoaldo.Main"  name="CodReserva_BuenoAldo" />
+  <update check="always"/>
+</jnlp>
